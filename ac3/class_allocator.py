@@ -2,7 +2,7 @@
 This is a demonstration of the AC-3 algorithm, which is used for constraint satisfaction, a process in artificial intelligence.
 
 Here, we use it to allocate sections of courses to rooms based on numerous factors:
-- Class size
+- Class size (random, but higher codes generally mean less seats)
 - Timeslots
 - Rooms available
 
@@ -80,16 +80,15 @@ def revise(course, neighbor):
 # set up the courses and capacities
 course_codes = ['CISC106', 'CISC108', 'CISC181', 'CISC210', 'CISC220', 'CISC260', 'CISC275', 'CISC303', 'CISC304', 'CISC320', 'CISC355', 'CISC360', 'CISC361', 'CISC372', 'CISC374', 'CISC401', 'CISC410', 'CISC411', 'CISC436', 'CISC437', 'CISC450', 'CISC464', 'CISC465', 'CISC471', 'CISC474', 'CISC475', 'CISC476', 'CISC481', 'CISC483', 'CISC484', 'CISC498']
 for code in course_codes:
-    if random.randint(1, 1) == 1: # add only half of these (approx.) to avoid frequent conflict runs (you can remove this limit but unsolvable problems may happen more often)
+    if random.randint(1, 2) == 1: # add only half of these (approx.) to avoid frequent conflict runs (you can remove this limit but unsolvable problems may happen more often)
         section_num = 10
-        course_capacity = random.randrange(10, 40, 5) * (5 - int(code[4]))
-        for i in range(random.randint(1, (5 - int(code[4])))):
+        for i in range(random.randint(1, (5 - int(code[4])) + 1)):
             hours = random.randint(1, 2)
             start_time = random.randint(8, 18)
             end_time = start_time + hours
             courses.append({
                 'course': code + '0' + str(section_num),
-                'capacity': course_capacity,
+                'capacity': random.randrange(10, 40, 5) * (5 - int(code[4])),
                 'start': start_time,
                 'end': end_time
             })
