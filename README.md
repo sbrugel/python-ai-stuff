@@ -10,7 +10,6 @@ You can supply these as parameters to the program, or go with the defaults:
 - **Diagonal movement allowed**: If 'y' is inputted, then diagonal movements will be permitted with a cost of 1 (like horizontal/vertical movements). Any other input will ban diagonal movement, leaving only horizontal/vertical movements available. *Defaults to NO*
 
 ### Technical Stuff
-#### Heuristics Used
 **Chebyshev Distance Heuristic** if diagonal movement is allowed.
 $$h = \max\left(|x_2 - x_1|, |y_2 - y_1|\right)$$
 
@@ -20,24 +19,21 @@ $$h = |x_2 - x_1| + |y_2 - y_1|$$
 ![img](https://i.imgur.com/1iZgNyT.gif)
 
 ## Constraint Satisfaction Classroom Allocator
-This is a demonstration of the AC-3 algorithm, which is used for constraint satisfaction, a process in artificial intelligence.
+This is a demonstration of the AC-3 algorithm, which is used for constraint satisfaction, a process in artificial intelligence. Given random courses and rooms available, **the aim is to allocate every course section to a room, with no two classes using the same room at the same time.**.
 
-*See output.txt for a sample output file*
+*See output.txt for a sample output file. This was not run with the course restriction, and took a few tries to get!*
 
 Here, we use it to allocate sections of courses to rooms based on numerous factors:
 - Class size (random, but higher codes generally mean less seats)
 - Timeslots
 - Rooms available
 
-Course sections are randomly generated with random times and sizes.
-
-Rooms are also randomly generated with random capacities.
-
-The aim is to allocate every course section to a room, with no two classes using the same room at the same time.
+Course sections are randomly generated with random times and sizes. Rooms are also randomly generated with random capacities.
 
 If the algorithm completes:
-- each course's domain (which has all possible rooms) is reduced to just one room which holds as little seats as possible while fitting the course
+- Each course's domain (which has all possible rooms) is reduced to just one room which holds as little seats as possible while fitting the course
     (i.e. for a course with 40 seats, we want a room with 40 seats over a room with 70)
-- a file 'output.txt' is written to which lists what room each course is allocated to.
+- A file 'output.txt' is written to which lists what room each course is allocated to.
 
-***NOTE:** Due to the way this is set up, the algorithm semi-frequently returns no solution. Just run it a few times and check 'output.txt' for the final output when it succeeds.*
+### Technical Stuff
+Out of the pool of courses available, only about half of these will generally be used in a run to avoid frequent runs that result in empty domains. You *can* remove this limit, but unsolvable world states may happen more often as a result.

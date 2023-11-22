@@ -1,23 +1,3 @@
-"""
-This is a demonstration of the AC-3 algorithm, which is used for constraint satisfaction, a process in artificial intelligence.
-
-Here, we use it to allocate sections of courses to rooms based on numerous factors:
-- Class size (random, but higher codes generally mean less seats)
-- Timeslots
-- Rooms available
-
-Course sections are randomly generated with random times and sizes.
-Rooms are also randomly generated with random capacities.
-
-The aim is to allocate every course section to a room, with no two classes using the same room at the same time.
-
-If the algorithm completes:
-- each course's domain (which has all possible rooms) is reduced to just one room which holds as little seats as possible while fitting the course
-    (i.e. for a course with 40 seats, we want a room with 40 seats over a room with 70)
-- a file 'output.txt' is written to which lists what room each course is allocated to.
-
-NOTE: Due to the way this is set up, the algorithm semi-frequently returns no solution. Just run it a few times and check 'output.txt' for the final output when it succeeds.
-"""
 import json, random
 
 # A list of dictionaries, containing course code, capacity, start, end, domain (rooms possible), and neighbors (other classes at the same time)
@@ -80,7 +60,9 @@ def revise(course, neighbor):
 # set up the courses and capacities
 course_codes = ['CISC106', 'CISC108', 'CISC181', 'CISC210', 'CISC220', 'CISC260', 'CISC275', 'CISC303', 'CISC304', 'CISC320', 'CISC355', 'CISC360', 'CISC361', 'CISC372', 'CISC374', 'CISC401', 'CISC410', 'CISC411', 'CISC436', 'CISC437', 'CISC450', 'CISC464', 'CISC465', 'CISC471', 'CISC474', 'CISC475', 'CISC476', 'CISC481', 'CISC483', 'CISC484', 'CISC498']
 for code in course_codes:
-    if random.randint(1, 2) == 1: # add only half of these (approx.) to avoid frequent conflict runs (you can remove this limit but unsolvable problems may happen more often)
+    if random.randint(1, 2) == 1: 
+        # add only half of these courses (approx.) to avoid frequent conflict runs 
+        # (you can remove this limit but unsolvable world states may happen more often)
         section_num = 10
         for i in range(random.randint(1, (5 - int(code[4])) + 1)):
             hours = random.randint(1, 2)

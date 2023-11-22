@@ -1,304 +1,540 @@
 ===AVAILABLE ROOMS===
-{"number": "EER161", "capacity": 95}
-{"number": "OYS298", "capacity": 50}
-{"number": "EUB148", "capacity": 20}
-{"number": "YMI248", "capacity": 90}
-{"number": "EER178", "capacity": 65}
-{"number": "MOG174", "capacity": 45}
-{"number": "EER225", "capacity": 170}
-{"number": "ILN277", "capacity": 20}
-{"number": "OYS174", "capacity": 105}
-{"number": "MOG493", "capacity": 80}
-{"number": "EER370", "capacity": 35}
-{"number": "ILN284", "capacity": 165}
-{"number": "ILN349", "capacity": 50}
-{"number": "MOG112", "capacity": 180}
-{"number": "ILN486", "capacity": 60}
-{"number": "EUB267", "capacity": 70}
-{"number": "EUB192", "capacity": 160}
-{"number": "ILN119", "capacity": 70}
-{"number": "YMI283", "capacity": 90}
-{"number": "EUB324", "capacity": 80}
-{"number": "OYS156", "capacity": 60}
-{"number": "YMI375", "capacity": 60}
-{"number": "ILN234", "capacity": 195}
-{"number": "OYS377", "capacity": 145}
-{"number": "EUB290", "capacity": 145}
-{"number": "EER418", "capacity": 85}
-{"number": "YMI336", "capacity": 155}
-{"number": "OYS470", "capacity": 30}
-{"number": "EER214", "capacity": 30}
-{"number": "MOG137", "capacity": 135}
-{"number": "EER487", "capacity": 40}
-{"number": "EUB134", "capacity": 120}
-{"number": "EUB116", "capacity": 165}
-{"number": "MOG213", "capacity": 50}
-{"number": "EUB221", "capacity": 125}
-{"number": "ILN134", "capacity": 170}
-{"number": "EUB490", "capacity": 85}
-{"number": "YMI312", "capacity": 145}
-{"number": "OYS185", "capacity": 30}
-{"number": "YMI298", "capacity": 170}
-{"number": "EER388", "capacity": 85}
-{"number": "OYS257", "capacity": 160}
-{"number": "ILN272", "capacity": 115}
-{"number": "MOG209", "capacity": 15}
-{"number": "EUB192", "capacity": 180}
-{"number": "EUB122", "capacity": 145}
-{"number": "MOG467", "capacity": 120}
-{"number": "YMI119", "capacity": 135}
-{"number": "OYS470", "capacity": 75}
-{"number": "YMI253", "capacity": 185}
-{"number": "YMI367", "capacity": 30}
-{"number": "YMI339", "capacity": 145}
-{"number": "YMI146", "capacity": 55}
-{"number": "OYS402", "capacity": 135}
-{"number": "EER413", "capacity": 45}
-{"number": "EER336", "capacity": 110}
-{"number": "YMI369", "capacity": 90}
-{"number": "EUB179", "capacity": 25}
-{"number": "YMI413", "capacity": 10}
-{"number": "EUB215", "capacity": 150}
-{"number": "EER192", "capacity": 90}
-{"number": "MOG177", "capacity": 45}
-{"number": "EUB143", "capacity": 15}
-{"number": "ILN301", "capacity": 10}
-{"number": "OYS319", "capacity": 60}
-{"number": "OYS234", "capacity": 50}
-{"number": "MOG240", "capacity": 125}
-{"number": "MOG115", "capacity": 125}
-{"number": "YMI490", "capacity": 125}
-{"number": "ILN462", "capacity": 180}
-{"number": "YMI223", "capacity": 130}
-{"number": "EER149", "capacity": 175}
-{"number": "ILN330", "capacity": 175}
-{"number": "EER285", "capacity": 55}
-{"number": "OYS486", "capacity": 85}
-{"number": "OYS403", "capacity": 190}
-{"number": "MOG317", "capacity": 155}
-{"number": "EUB180", "capacity": 40}
-{"number": "ILN471", "capacity": 50}
-{"number": "ILN185", "capacity": 95}
-{"number": "MOG134", "capacity": 160}
-{"number": "ILN148", "capacity": 135}
-{"number": "ILN133", "capacity": 15}
-{"number": "MOG487", "capacity": 110}
-{"number": "EER449", "capacity": 30}
-{"number": "YMI427", "capacity": 60}
-{"number": "OYS462", "capacity": 75}
+{"number": "OUR291", "capacity": 40}
+{"number": "VEY325", "capacity": 40}
+{"number": "YKU188", "capacity": 15}
+{"number": "OUR261", "capacity": 65}
+{"number": "LAE417", "capacity": 100}
+{"number": "LAE222", "capacity": 185}
+{"number": "YKU416", "capacity": 170}
+{"number": "OUR395", "capacity": 70}
+{"number": "OUR365", "capacity": 135}
+{"number": "YKU320", "capacity": 190}
+{"number": "LBU405", "capacity": 115}
+{"number": "LBU213", "capacity": 75}
+{"number": "LBU373", "capacity": 100}
+{"number": "OUR268", "capacity": 135}
+{"number": "LAE176", "capacity": 185}
+{"number": "YKU278", "capacity": 135}
+{"number": "OUR334", "capacity": 110}
+{"number": "OUR415", "capacity": 175}
+{"number": "YKU378", "capacity": 195}
+{"number": "OUR265", "capacity": 55}
+{"number": "LAE439", "capacity": 15}
+{"number": "VEY259", "capacity": 105}
+{"number": "LAE235", "capacity": 65}
+{"number": "YKU173", "capacity": 140}
+{"number": "VEY265", "capacity": 190}
+{"number": "YKU308", "capacity": 110}
+{"number": "VEY105", "capacity": 90}
+{"number": "NEN204", "capacity": 100}
+{"number": "LAE328", "capacity": 150}
+{"number": "VEY422", "capacity": 145}
+{"number": "NEN279", "capacity": 125}
+{"number": "NEN330", "capacity": 50}
+{"number": "OUR398", "capacity": 60}
+{"number": "YKU100", "capacity": 185}
+{"number": "VEY324", "capacity": 30}
+{"number": "VEY190", "capacity": 95}
+{"number": "VEY241", "capacity": 125}
+{"number": "YKU221", "capacity": 185}
+{"number": "VEY265", "capacity": 175}
+{"number": "YKU252", "capacity": 50}
+{"number": "OUR476", "capacity": 155}
+{"number": "OUR209", "capacity": 190}
+{"number": "VEY399", "capacity": 55}
+{"number": "LBU220", "capacity": 125}
+{"number": "NEN242", "capacity": 160}
+{"number": "VEY424", "capacity": 140}
+{"number": "LAE392", "capacity": 100}
+{"number": "VEY391", "capacity": 35}
+{"number": "LAE493", "capacity": 155}
+{"number": "YKU411", "capacity": 50}
+{"number": "YKU451", "capacity": 60}
+{"number": "LBU312", "capacity": 125}
+{"number": "NEN296", "capacity": 85}
+{"number": "NEN144", "capacity": 195}
+{"number": "YKU425", "capacity": 15}
+{"number": "LAE210", "capacity": 180}
+{"number": "LAE338", "capacity": 45}
+{"number": "VEY357", "capacity": 110}
+{"number": "YKU354", "capacity": 150}
+{"number": "YKU163", "capacity": 40}
+{"number": "YKU408", "capacity": 70}
+{"number": "YKU187", "capacity": 150}
+{"number": "OUR284", "capacity": 85}
+{"number": "LBU245", "capacity": 10}
+{"number": "OUR369", "capacity": 40}
+{"number": "LAE476", "capacity": 20}
+{"number": "OUR288", "capacity": 135}
+{"number": "NEN257", "capacity": 180}
+{"number": "LAE401", "capacity": 90}
+{"number": "YKU332", "capacity": 60}
+{"number": "OUR335", "capacity": 115}
+{"number": "YKU199", "capacity": 60}
+{"number": "VEY460", "capacity": 65}
+{"number": "OUR221", "capacity": 140}
+{"number": "LBU317", "capacity": 145}
+{"number": "NEN211", "capacity": 40}
+{"number": "OUR271", "capacity": 130}
+{"number": "LAE111", "capacity": 25}
+{"number": "LAE223", "capacity": 145}
+{"number": "LAE309", "capacity": 165}
+{"number": "OUR266", "capacity": 140}
+{"number": "VEY368", "capacity": 65}
+{"number": "OUR352", "capacity": 180}
+{"number": "YKU169", "capacity": 10}
+{"number": "NEN251", "capacity": 135}
+{"number": "OUR297", "capacity": 35}
+{"number": "OUR332", "capacity": 80}
+{"number": "OUR296", "capacity": 160}
+{"number": "VEY498", "capacity": 35}
+{"number": "YKU258", "capacity": 140}
+{"number": "VEY130", "capacity": 70}
+{"number": "VEY297", "capacity": 40}
+{"number": "VEY404", "capacity": 75}
+{"number": "NEN338", "capacity": 90}
+{"number": "LBU139", "capacity": 50}
+{"number": "LAE450", "capacity": 45}
+{"number": "NEN181", "capacity": 95}
+{"number": "LBU406", "capacity": 90}
+{"number": "VEY470", "capacity": 190}
+{"number": "NEN437", "capacity": 130}
+{"number": "NEN299", "capacity": 180}
+{"number": "YKU358", "capacity": 135}
+{"number": "NEN458", "capacity": 100}
+{"number": "LAE259", "capacity": 55}
+{"number": "OUR395", "capacity": 30}
+{"number": "LAE415", "capacity": 125}
+{"number": "NEN193", "capacity": 115}
+{"number": "LBU419", "capacity": 70}
+{"number": "LAE264", "capacity": 135}
+{"number": "YKU462", "capacity": 180}
+{"number": "LBU288", "capacity": 175}
+{"number": "NEN495", "capacity": 60}
+{"number": "YKU118", "capacity": 195}
+{"number": "LAE215", "capacity": 40}
+{"number": "YKU478", "capacity": 10}
+{"number": "NEN357", "capacity": 15}
+{"number": "OUR391", "capacity": 100}
+{"number": "LAE493", "capacity": 170}
+{"number": "LAE467", "capacity": 25}
+{"number": "VEY236", "capacity": 85}
 
 ===AVAILABLE COURSES===
-CISC106010 from 18:00 to 19:00 in MOG493, EUB324, EER418, EUB490, EER388, OYS486
+CISC106010 from 11:00 to 12:00 in LAE417, LBU373, VEY259, NEN204, LAE392, NEN458, OUR391
+	Capacity: 100
+CISC106011 from 12:00 to 14:00 in NEN296, OUR284, OUR332, VEY236
 	Capacity: 80
-CISC106011 from 12:00 to 13:00 in EUB134, EUB221, MOG467, MOG240, MOG115, YMI490
-	Capacity: 120
-CISC106012 from 8:00 to 10:00 in MOG493, EUB324, EER418, EUB490, EER388, OYS486
-	Capacity: 80
-CISC106013 from 9:00 to 10:00 in MOG493, EUB324, EER418, EUB490, EER388, OYS486
-	Capacity: 80
-CISC106014 from 10:00 to 12:00 in EER178, ILN486, OYS156, YMI375, OYS319, YMI427
+CISC108010 from 8:00 to 10:00 in OUR261, LAE235, OUR398, YKU451, YKU332, YKU199, VEY460, VEY368, NEN495
 	Capacity: 60
-CISC181010 from 16:00 to 17:00 in MOG174, EER487, EER413, MOG177, EUB180
-	Capacity: 40
-CISC181011 from 16:00 to 18:00 in MOG174, EER487, EER413, MOG177, EUB180
-	Capacity: 40
-CISC181012 from 12:00 to 14:00 in OYS377, EUB290, YMI312, EUB122, YMI339
-	Capacity: 140
-CISC181013 from 18:00 to 20:00 in OYS377, EUB290, YMI312, EUB122, YMI339
-	Capacity: 140
-CISC181014 from 15:00 to 16:00 in OYS377, EUB290, YMI312, EUB122, YMI339
-	Capacity: 140
-CISC260010 from 11:00 to 12:00 in EER161, YMI248, YMI283, YMI369, EER192, ILN185
+CISC181010 from 11:00 to 13:00 in NEN296, OUR284, OUR332, VEY236
+	Capacity: 80
+CISC181011 from 10:00 to 11:00 in OUR261, LAE235, OUR398, YKU451, YKU332, YKU199, VEY460, VEY368, NEN495
+	Capacity: 60
+CISC181012 from 9:00 to 11:00 in NEN296, OUR284, OUR332, VEY236
+	Capacity: 80
+CISC181013 from 16:00 to 17:00 in NEN296, OUR284, OUR332, VEY236
+	Capacity: 80
+CISC210010 from 14:00 to 15:00 in NEN330, YKU252, YKU411, LAE338, LBU139, LAE450
+	Capacity: 45
+CISC210011 from 8:00 to 10:00 in VEY105, VEY190, LAE401, NEN338, NEN181, LBU406
 	Capacity: 90
-CISC303010 from 17:00 to 19:00 in OYS298, ILN349, MOG213, YMI146, OYS234, EER285, ILN471
+CISC210012 from 18:00 to 20:00 in NEN330, YKU252, YKU411, LAE338, LBU139, LAE450
+	Capacity: 45
+CISC210013 from 11:00 to 12:00 in VEY105, VEY190, LAE401, NEN338, NEN181, LBU406
+	Capacity: 90
+CISC220010 from 15:00 to 16:00 in OUR334, VEY259, YKU308, VEY357
+	Capacity: 105
+CISC220011 from 16:00 to 17:00 in OUR261, LAE235, OUR398, YKU451, YKU332, YKU199, VEY460, VEY368, NEN495
+	Capacity: 60
+CISC220012 from 18:00 to 19:00 in VEY105, VEY190, LAE401, NEN338, NEN181, LBU406
+	Capacity: 90
+CISC260010 from 14:00 to 15:00 in LBU213, OUR332, VEY404
+	Capacity: 75
+CISC260011 from 13:00 to 15:00 in NEN330, YKU252, YKU411, LAE338, LBU139, LAE450
+	Capacity: 45
+CISC260012 from 17:00 to 18:00 in OUR334, VEY259, YKU308, VEY357
+	Capacity: 105
+CISC275010 from 12:00 to 13:00 in OUR261, LAE235, OUR398, YKU451, YKU332, YKU199, VEY460, VEY368, NEN495
+	Capacity: 60
+CISC275011 from 8:00 to 10:00 in VEY105, VEY190, LAE401, NEN338, NEN181, LBU406
+	Capacity: 90
+CISC275012 from 8:00 to 10:00 in NEN330, YKU252, YKU411, LAE338, LBU139, LAE450
+	Capacity: 45
+CISC303010 from 8:00 to 9:00 in OUR291, VEY325, LAE338, YKU163, OUR369, NEN211, VEY297, LAE450, LAE215
+	Capacity: 40
+CISC303011 from 15:00 to 16:00 in OUR265, NEN330, YKU252, VEY399, YKU411, LBU139, LAE259
 	Capacity: 50
-CISC303011 from 9:00 to 10:00 in MOG174, EER487, EER413, MOG177, EUB180
+CISC304010 from 15:00 to 16:00 in OUR291, VEY325, LAE338, YKU163, OUR369, NEN211, VEY297, LAE450, LAE215
 	Capacity: 40
-CISC303012 from 18:00 to 19:00 in MOG174, EER487, EER413, MOG177, EUB180
-	Capacity: 40
-CISC304010 from 11:00 to 12:00 in EER370, OYS470, EER214, OYS185, YMI367, EER449
+CISC304011 from 15:00 to 16:00 in VEY324, VEY391, OUR297, VEY498, OUR395
 	Capacity: 30
-CISC304011 from 11:00 to 12:00 in MOG174, EER487, EER413, MOG177, EUB180
-	Capacity: 40
-CISC355010 from 15:00 to 17:00 in OYS298, ILN349, MOG213, YMI146, OYS234, EER285, ILN471
+CISC304012 from 9:00 to 10:00 in VEY324, VEY391, OUR297, VEY498, OUR395
+	Capacity: 30
+CISC320010 from 14:00 to 16:00 in OUR265, NEN330, YKU252, VEY399, YKU411, LBU139, LAE259
 	Capacity: 50
-CISC360010 from 16:00 to 18:00 in EUB267, ILN119, OYS470, OYS462
+CISC355010 from 11:00 to 13:00 in OUR291, VEY325, LAE338, YKU163, OUR369, NEN211, VEY297, LAE450, LAE215
+	Capacity: 40
+CISC355011 from 18:00 to 20:00 in VEY324, VEY391, OUR297, VEY498, OUR395
+	Capacity: 30
+CISC355012 from 9:00 to 11:00 in LAE476, LAE111, LAE467
+	Capacity: 20
+CISC360010 from 8:00 to 10:00 in VEY324, VEY391, OUR297, VEY498, OUR395
+	Capacity: 30
+CISC360011 from 9:00 to 10:00 in VEY324, VEY391, OUR297, VEY498, OUR395
+	Capacity: 30
+CISC360012 from 18:00 to 19:00 in OUR291, VEY325, LAE338, YKU163, OUR369, NEN211, VEY297, LAE450, LAE215
+	Capacity: 40
+CISC361010 from 18:00 to 20:00 in OUR291, VEY325, LAE338, YKU163, OUR369, NEN211, VEY297, LAE450, LAE215
+	Capacity: 40
+CISC361011 from 14:00 to 16:00 in OUR265, NEN330, YKU252, VEY399, YKU411, LBU139, LAE259
+	Capacity: 50
+CISC361012 from 8:00 to 10:00 in OUR261, LAE235, OUR398, YKU451, YKU332, YKU199, VEY460, VEY368, NEN495
+	Capacity: 60
+CISC372010 from 17:00 to 18:00 in OUR291, VEY325, LAE338, YKU163, OUR369, NEN211, VEY297, LAE450, LAE215
+	Capacity: 40
+CISC374010 from 15:00 to 16:00 in OUR395, LBU213, YKU408, VEY130, VEY404, LBU419
 	Capacity: 70
-CISC360011 from 11:00 to 12:00 in EUB267, ILN119, OYS470, OYS462
-	Capacity: 70
-CISC361010 from 16:00 to 18:00 in EUB267, ILN119, OYS470, OYS462
-	Capacity: 70
-CISC401010 from 16:00 to 17:00 in EER370, EER487, EUB180
+CISC374011 from 13:00 to 14:00 in LAE476, LAE111, LAE467
+	Capacity: 20
+CISC401010 from 18:00 to 20:00 in OUR291, VEY325, VEY391, YKU163, OUR369, NEN211, OUR297, VEY498, VEY297, LAE215
 	Capacity: 35
-CISC401011 from 9:00 to 11:00 in MOG209, YMI413, EUB143, ILN301, ILN133
+CISC410010 from 15:00 to 16:00 in YKU188, LAE439, YKU425, LBU245, YKU169, YKU478, NEN357
 	Capacity: 10
-CISC410010 from 16:00 to 18:00 in EER370, OYS470, EER214, OYS185, YMI367, EER449
-	Capacity: 30
-CISC410011 from 9:00 to 11:00 in OYS470, EER214, OYS185, YMI367, EUB179, EER449
-	Capacity: 25
-CISC436010 from 18:00 to 19:00 in EER370, OYS470, EER214, OYS185, YMI367, EER449
-	Capacity: 30
-CISC437010 from 11:00 to 12:00 in EUB148, ILN277, EUB179
+CISC411010 from 18:00 to 19:00 in YKU188, LAE439, YKU425, LBU245, YKU169, YKU478, NEN357
+	Capacity: 10
+CISC436010 from 15:00 to 16:00 in LAE476, LAE111, LAE467
 	Capacity: 20
-CISC437011 from 12:00 to 13:00 in EUB148, ILN277, EUB179
-	Capacity: 20
-CISC450010 from 13:00 to 15:00 in OYS470, EER214, OYS185, YMI367, EUB179, EER449
+CISC437010 from 8:00 to 9:00 in VEY324, LAE111, OUR395, LAE467
 	Capacity: 25
-CISC464010 from 12:00 to 13:00 in EUB148, ILN277, MOG209, EUB143, ILN133
+CISC437011 from 17:00 to 19:00 in VEY324, LAE111, OUR395, LAE467
+	Capacity: 25
+CISC450010 from 10:00 to 11:00 in OUR291, VEY325, VEY391, YKU163, OUR369, NEN211, OUR297, VEY498, VEY297, LAE215
+	Capacity: 35
+CISC464010 from 12:00 to 14:00 in YKU188, LAE439, YKU425, LBU245, YKU169, YKU478, NEN357
+	Capacity: 10
+CISC464011 from 12:00 to 13:00 in VEY324, VEY391, OUR297, VEY498, OUR395
+	Capacity: 30
+CISC465010 from 13:00 to 14:00 in VEY324, LAE111, OUR395, LAE467
+	Capacity: 25
+CISC471010 from 10:00 to 11:00 in VEY324, LAE111, OUR395, LAE467
+	Capacity: 25
+CISC474010 from 10:00 to 11:00 in VEY324, VEY391, OUR297, VEY498, OUR395
+	Capacity: 30
+CISC475010 from 16:00 to 18:00 in YKU188, LAE439, YKU425, LAE476, NEN357
 	Capacity: 15
-CISC484010 from 18:00 to 19:00 in MOG209, YMI413, EUB143, ILN301, ILN133
+CISC475011 from 12:00 to 13:00 in YKU188, LAE439, YKU425, LBU245, YKU169, YKU478, NEN357
 	Capacity: 10
+CISC476010 from 11:00 to 13:00 in YKU188, LAE439, YKU425, LAE476, NEN357
+	Capacity: 15
+CISC481010 from 14:00 to 16:00 in LAE476, LAE111, LAE467
+	Capacity: 20
+CISC483010 from 17:00 to 18:00 in YKU188, LAE439, YKU425, LAE476, NEN357
+	Capacity: 15
+CISC483011 from 11:00 to 13:00 in VEY324, VEY391, OUR297, VEY498, OUR395
+	Capacity: 30
+CISC484010 from 14:00 to 15:00 in YKU188, LAE439, YKU425, LBU245, YKU169, YKU478, NEN357
+	Capacity: 10
+CISC484011 from 12:00 to 14:00 in VEY324, VEY391, OUR297, VEY498, OUR395
+	Capacity: 30
+CISC498010 from 10:00 to 12:00 in OUR291, VEY325, VEY391, YKU163, OUR369, NEN211, OUR297, VEY498, VEY297, LAE215
+	Capacity: 35
 
 ===FINAL CLASS SCHEDULE: POSSIBLE===
-CISC106010 from 18:00 to 19:00 in MOG493, EUB324, EER418, EUB490, EER388, OYS486
+CISC106010 from 11:00 to 12:00 in LAE417, LBU373, VEY259, NEN204, LAE392, NEN458, OUR391
+	Capacity: 100
+CISC106011 from 12:00 to 14:00 in OUR284, VEY236
 	Capacity: 80
-CISC106011 from 12:00 to 13:00 in EUB134, EUB221, MOG467, MOG240, MOG115, YMI490
-	Capacity: 120
-CISC106012 from 8:00 to 10:00 in EUB324, EUB490, OYS486
-	Capacity: 80
-CISC106013 from 9:00 to 10:00 in MOG493, EER418, EER388
-	Capacity: 80
-CISC106014 from 10:00 to 12:00 in EER178, ILN486, OYS156, YMI375, OYS319, YMI427
+CISC108010 from 8:00 to 10:00 in LAE235, YKU451, YKU199, VEY368
 	Capacity: 60
-CISC181010 from 16:00 to 17:00 in MOG177
-	Capacity: 40
-CISC181011 from 16:00 to 18:00 in MOG174, EER413
-	Capacity: 40
-CISC181012 from 12:00 to 14:00 in OYS377, EUB290, YMI312, EUB122, YMI339
-	Capacity: 140
-CISC181013 from 18:00 to 20:00 in OYS377, EUB290, YMI312, EUB122, YMI339
-	Capacity: 140
-CISC181014 from 15:00 to 16:00 in OYS377, EUB290, YMI312, EUB122, YMI339
-	Capacity: 140
-CISC260010 from 11:00 to 12:00 in EER161, YMI248, YMI283, YMI369, EER192, ILN185
+CISC181010 from 11:00 to 13:00 in NEN296, OUR332
+	Capacity: 80
+CISC181011 from 10:00 to 11:00 in OUR261, LAE235, OUR398, YKU451, YKU332, YKU199, VEY460, VEY368, NEN495
+	Capacity: 60
+CISC181012 from 9:00 to 11:00 in NEN296, OUR284, OUR332, VEY236
+	Capacity: 80
+CISC181013 from 16:00 to 17:00 in NEN296, OUR284, OUR332, VEY236
+	Capacity: 80
+CISC210010 from 14:00 to 15:00 in LAE338, LAE450
+	Capacity: 45
+CISC210011 from 8:00 to 10:00 in VEY190, NEN338, LBU406
 	Capacity: 90
-CISC303010 from 17:00 to 19:00 in OYS298, ILN349, MOG213, YMI146, OYS234, EER285, ILN471
+CISC210012 from 18:00 to 20:00 in NEN330, YKU252, YKU411, LBU139
+	Capacity: 45
+CISC210013 from 11:00 to 12:00 in VEY105, VEY190, LAE401, NEN338, NEN181, LBU406
+	Capacity: 90
+CISC220010 from 15:00 to 16:00 in OUR334, VEY259, YKU308, VEY357
+	Capacity: 105
+CISC220011 from 16:00 to 17:00 in OUR261, LAE235, OUR398, YKU451, YKU332, YKU199, VEY460, VEY368, NEN495
+	Capacity: 60
+CISC220012 from 18:00 to 19:00 in VEY105, VEY190, LAE401, NEN338, NEN181, LBU406
+	Capacity: 90
+CISC260010 from 14:00 to 15:00 in LBU213, OUR332, VEY404
+	Capacity: 75
+CISC260011 from 13:00 to 15:00 in LBU139
+	Capacity: 45
+CISC260012 from 17:00 to 18:00 in OUR334, VEY259, YKU308, VEY357
+	Capacity: 105
+CISC275010 from 12:00 to 13:00 in OUR261, LAE235, OUR398, YKU451, YKU332, YKU199, VEY460, VEY368, NEN495
+	Capacity: 60
+CISC275011 from 8:00 to 10:00 in VEY105, LAE401, NEN181
+	Capacity: 90
+CISC275012 from 8:00 to 10:00 in NEN330, YKU252, YKU411, LBU139
+	Capacity: 45
+CISC303010 from 8:00 to 9:00 in OUR291, VEY325, LAE338, YKU163, OUR369, NEN211, VEY297, LAE450, LAE215
+	Capacity: 40
+CISC303011 from 15:00 to 16:00 in VEY399
 	Capacity: 50
-CISC303011 from 9:00 to 10:00 in MOG174, EER487, EER413, MOG177, EUB180
+CISC304010 from 15:00 to 16:00 in OUR291, VEY325, LAE338, YKU163, OUR369, NEN211, VEY297, LAE450, LAE215
 	Capacity: 40
-CISC303012 from 18:00 to 19:00 in MOG174, EER487, EER413, MOG177, EUB180
-	Capacity: 40
-CISC304010 from 11:00 to 12:00 in EER370, EER214, OYS185, YMI367, EER449
+CISC304011 from 15:00 to 16:00 in VEY324, VEY391, OUR297, VEY498
 	Capacity: 30
-CISC304011 from 11:00 to 12:00 in MOG174, EER487, EER413, MOG177, EUB180
-	Capacity: 40
-CISC355010 from 15:00 to 17:00 in OYS298, ILN349, MOG213, YMI146, OYS234, EER285, ILN471
+CISC304012 from 9:00 to 10:00 in VEY498
+	Capacity: 30
+CISC320010 from 14:00 to 16:00 in NEN330, YKU411
 	Capacity: 50
-CISC360010 from 16:00 to 18:00 in ILN119, OYS462
+CISC355010 from 11:00 to 13:00 in VEY325, LAE338, OUR369, VEY297, LAE450
+	Capacity: 40
+CISC355011 from 18:00 to 20:00 in OUR297
+	Capacity: 30
+CISC355012 from 9:00 to 11:00 in LAE476, LAE467
+	Capacity: 20
+CISC360010 from 8:00 to 10:00 in VEY391
+	Capacity: 30
+CISC360011 from 9:00 to 10:00 in VEY324, OUR297, OUR395
+	Capacity: 30
+CISC360012 from 18:00 to 19:00 in YKU163, LAE450
+	Capacity: 40
+CISC361010 from 18:00 to 20:00 in VEY325, LAE338, NEN211, LAE215
+	Capacity: 40
+CISC361011 from 14:00 to 16:00 in OUR265, YKU252, LAE259
+	Capacity: 50
+CISC361012 from 8:00 to 10:00 in OUR261, OUR398, YKU332, VEY460, NEN495
+	Capacity: 60
+CISC372010 from 17:00 to 18:00 in OUR291, VEY325, LAE338, YKU163, OUR369, NEN211, VEY297, LAE450, LAE215
+	Capacity: 40
+CISC374010 from 15:00 to 16:00 in OUR395, LBU213, YKU408, VEY130, VEY404, LBU419
 	Capacity: 70
-CISC360011 from 11:00 to 12:00 in EUB267, ILN119, OYS470, OYS462
-	Capacity: 70
-CISC361010 from 16:00 to 18:00 in EUB267
-	Capacity: 70
-CISC401010 from 16:00 to 17:00 in EER487, EUB180
+CISC374011 from 13:00 to 14:00 in LAE476, LAE467
+	Capacity: 20
+CISC401010 from 18:00 to 20:00 in OUR291, VEY391, OUR369, VEY498, VEY297
 	Capacity: 35
-CISC401011 from 9:00 to 11:00 in MOG209, YMI413, EUB143, ILN301, ILN133
+CISC410010 from 15:00 to 16:00 in YKU188, LAE439, YKU425, LBU245, YKU169, YKU478, NEN357
 	Capacity: 10
-CISC410010 from 16:00 to 18:00 in EER370, OYS470, EER214, OYS185, YMI367, EER449
-	Capacity: 30
-CISC410011 from 9:00 to 11:00 in OYS470, EER214, OYS185, YMI367, EUB179, EER449
-	Capacity: 25
-CISC436010 from 18:00 to 19:00 in EER370, OYS470, EER214, OYS185, YMI367, EER449
-	Capacity: 30
-CISC437010 from 11:00 to 12:00 in EUB148, ILN277, EUB179
+CISC411010 from 18:00 to 19:00 in YKU188, LAE439, YKU425, LBU245, YKU169, YKU478, NEN357
+	Capacity: 10
+CISC436010 from 15:00 to 16:00 in LAE111
 	Capacity: 20
-CISC437011 from 12:00 to 13:00 in ILN277, EUB179
-	Capacity: 20
-CISC450010 from 13:00 to 15:00 in OYS470, EER214, OYS185, YMI367, EUB179, EER449
+CISC437010 from 8:00 to 9:00 in VEY324, LAE111, OUR395, LAE467
 	Capacity: 25
-CISC464010 from 12:00 to 13:00 in EUB148, MOG209, EUB143, ILN133
+CISC437011 from 17:00 to 19:00 in VEY324, LAE111, OUR395, LAE467
+	Capacity: 25
+CISC450010 from 10:00 to 11:00 in VEY325, OUR369, VEY498, LAE215
+	Capacity: 35
+CISC464010 from 12:00 to 14:00 in LBU245, YKU478
+	Capacity: 10
+CISC464011 from 12:00 to 13:00 in VEY498
+	Capacity: 30
+CISC465010 from 13:00 to 14:00 in LAE111
+	Capacity: 25
+CISC471010 from 10:00 to 11:00 in LAE111
+	Capacity: 25
+CISC474010 from 10:00 to 11:00 in VEY324, OUR297, OUR395
+	Capacity: 30
+CISC475010 from 16:00 to 18:00 in LAE439, LAE476
 	Capacity: 15
-CISC484010 from 18:00 to 19:00 in MOG209, YMI413, EUB143, ILN301, ILN133
+CISC475011 from 12:00 to 13:00 in LAE439, YKU169
 	Capacity: 10
+CISC476010 from 11:00 to 13:00 in YKU188, YKU425, LAE476, NEN357
+	Capacity: 15
+CISC481010 from 14:00 to 16:00 in LAE476, LAE467
+	Capacity: 20
+CISC483010 from 17:00 to 18:00 in YKU188, YKU425, NEN357
+	Capacity: 15
+CISC483011 from 11:00 to 13:00 in OUR395
+	Capacity: 30
+CISC484010 from 14:00 to 15:00 in YKU188, LAE439, YKU425, LBU245, YKU169, YKU478, NEN357
+	Capacity: 10
+CISC484011 from 12:00 to 14:00 in VEY324, VEY391, OUR297
+	Capacity: 30
+CISC498010 from 10:00 to 12:00 in OUR291, VEY391, YKU163, NEN211
+	Capacity: 35
 
 ===FINAL CLASS SCHEDULE: CHOSEN===
-CISC106010 from 18:00 to 19:00 in OYS486
+CISC106010 from 11:00 to 12:00 in OUR391
+	Capacity of Course: 100
+	Capacity of Room: 100
+CISC106011 from 12:00 to 14:00 in VEY236
 	Capacity of Course: 80
 	Capacity of Room: 85
-CISC106011 from 12:00 to 13:00 in YMI490
-	Capacity of Course: 120
-	Capacity of Room: 125
-CISC106012 from 8:00 to 10:00 in OYS486
+CISC108010 from 8:00 to 10:00 in VEY368
+	Capacity of Course: 60
+	Capacity of Room: 65
+CISC181010 from 11:00 to 13:00 in OUR332
 	Capacity of Course: 80
-	Capacity of Room: 85
-CISC106013 from 9:00 to 10:00 in EER388
-	Capacity of Course: 80
-	Capacity of Room: 85
-CISC106014 from 10:00 to 12:00 in YMI427
+	Capacity of Room: 80
+CISC181011 from 10:00 to 11:00 in NEN495
 	Capacity of Course: 60
 	Capacity of Room: 60
-CISC181010 from 16:00 to 17:00 in MOG177
-	Capacity of Course: 40
+CISC181012 from 9:00 to 11:00 in VEY236
+	Capacity of Course: 80
+	Capacity of Room: 85
+CISC181013 from 16:00 to 17:00 in VEY236
+	Capacity of Course: 80
+	Capacity of Room: 85
+CISC210010 from 14:00 to 15:00 in LAE450
+	Capacity of Course: 45
 	Capacity of Room: 45
-CISC181011 from 16:00 to 18:00 in EER413
-	Capacity of Course: 40
-	Capacity of Room: 45
-CISC181012 from 12:00 to 14:00 in YMI339
-	Capacity of Course: 140
-	Capacity of Room: 145
-CISC181013 from 18:00 to 20:00 in YMI339
-	Capacity of Course: 140
-	Capacity of Room: 145
-CISC181014 from 15:00 to 16:00 in YMI339
-	Capacity of Course: 140
-	Capacity of Room: 145
-CISC260010 from 11:00 to 12:00 in ILN185
+CISC210011 from 8:00 to 10:00 in LBU406
+	Capacity of Course: 90
+	Capacity of Room: 90
+CISC210012 from 18:00 to 20:00 in LBU139
+	Capacity of Course: 45
+	Capacity of Room: 50
+CISC210013 from 11:00 to 12:00 in LBU406
+	Capacity of Course: 90
+	Capacity of Room: 90
+CISC220010 from 15:00 to 16:00 in VEY357
+	Capacity of Course: 105
+	Capacity of Room: 110
+CISC220011 from 16:00 to 17:00 in NEN495
+	Capacity of Course: 60
+	Capacity of Room: 60
+CISC220012 from 18:00 to 19:00 in LBU406
+	Capacity of Course: 90
+	Capacity of Room: 90
+CISC260010 from 14:00 to 15:00 in VEY404
+	Capacity of Course: 75
+	Capacity of Room: 75
+CISC260011 from 13:00 to 15:00 in LBU139
+	Capacity of Course: 45
+	Capacity of Room: 50
+CISC260012 from 17:00 to 18:00 in VEY357
+	Capacity of Course: 105
+	Capacity of Room: 110
+CISC275010 from 12:00 to 13:00 in NEN495
+	Capacity of Course: 60
+	Capacity of Room: 60
+CISC275011 from 8:00 to 10:00 in NEN181
 	Capacity of Course: 90
 	Capacity of Room: 95
-CISC303010 from 17:00 to 19:00 in ILN471
-	Capacity of Course: 50
+CISC275012 from 8:00 to 10:00 in LBU139
+	Capacity of Course: 45
 	Capacity of Room: 50
-CISC303011 from 9:00 to 10:00 in EUB180
+CISC303010 from 8:00 to 9:00 in LAE215
 	Capacity of Course: 40
 	Capacity of Room: 40
-CISC303012 from 18:00 to 19:00 in EUB180
+CISC303011 from 15:00 to 16:00 in VEY399
+	Capacity of Course: 50
+	Capacity of Room: 55
+CISC304010 from 15:00 to 16:00 in LAE215
 	Capacity of Course: 40
 	Capacity of Room: 40
-CISC304010 from 11:00 to 12:00 in EER449
+CISC304011 from 15:00 to 16:00 in VEY498
 	Capacity of Course: 30
-	Capacity of Room: 30
-CISC304011 from 11:00 to 12:00 in EUB180
-	Capacity of Course: 40
-	Capacity of Room: 40
-CISC355010 from 15:00 to 17:00 in ILN471
+	Capacity of Room: 35
+CISC304012 from 9:00 to 10:00 in VEY498
+	Capacity of Course: 30
+	Capacity of Room: 35
+CISC320010 from 14:00 to 16:00 in YKU411
 	Capacity of Course: 50
 	Capacity of Room: 50
-CISC360010 from 16:00 to 18:00 in OYS462
-	Capacity of Course: 70
-	Capacity of Room: 75
-CISC360011 from 11:00 to 12:00 in OYS462
-	Capacity of Course: 70
-	Capacity of Room: 75
-CISC361010 from 16:00 to 18:00 in EUB267
+CISC355010 from 11:00 to 13:00 in LAE450
+	Capacity of Course: 40
+	Capacity of Room: 45
+CISC355011 from 18:00 to 20:00 in OUR297
+	Capacity of Course: 30
+	Capacity of Room: 35
+CISC355012 from 9:00 to 11:00 in LAE467
+	Capacity of Course: 20
+	Capacity of Room: 25
+CISC360010 from 8:00 to 10:00 in VEY391
+	Capacity of Course: 30
+	Capacity of Room: 35
+CISC360011 from 9:00 to 10:00 in OUR395
+	Capacity of Course: 30
+	Capacity of Room: 70
+CISC360012 from 18:00 to 19:00 in LAE450
+	Capacity of Course: 40
+	Capacity of Room: 45
+CISC361010 from 18:00 to 20:00 in LAE215
+	Capacity of Course: 40
+	Capacity of Room: 40
+CISC361011 from 14:00 to 16:00 in LAE259
+	Capacity of Course: 50
+	Capacity of Room: 55
+CISC361012 from 8:00 to 10:00 in NEN495
+	Capacity of Course: 60
+	Capacity of Room: 60
+CISC372010 from 17:00 to 18:00 in LAE215
+	Capacity of Course: 40
+	Capacity of Room: 40
+CISC374010 from 15:00 to 16:00 in LBU419
 	Capacity of Course: 70
 	Capacity of Room: 70
-CISC401010 from 16:00 to 17:00 in EUB180
+CISC374011 from 13:00 to 14:00 in LAE467
+	Capacity of Course: 20
+	Capacity of Room: 25
+CISC401010 from 18:00 to 20:00 in VEY297
 	Capacity of Course: 35
 	Capacity of Room: 40
-CISC401011 from 9:00 to 11:00 in ILN133
+CISC410010 from 15:00 to 16:00 in NEN357
 	Capacity of Course: 10
 	Capacity of Room: 15
-CISC410010 from 16:00 to 18:00 in EER449
-	Capacity of Course: 30
-	Capacity of Room: 30
-CISC410011 from 9:00 to 11:00 in EER449
-	Capacity of Course: 25
-	Capacity of Room: 30
-CISC436010 from 18:00 to 19:00 in EER449
-	Capacity of Course: 30
-	Capacity of Room: 30
-CISC437010 from 11:00 to 12:00 in EUB179
+CISC411010 from 18:00 to 19:00 in NEN357
+	Capacity of Course: 10
+	Capacity of Room: 15
+CISC436010 from 15:00 to 16:00 in LAE111
 	Capacity of Course: 20
 	Capacity of Room: 25
-CISC437011 from 12:00 to 13:00 in EUB179
-	Capacity of Course: 20
-	Capacity of Room: 25
-CISC450010 from 13:00 to 15:00 in EER449
+CISC437010 from 8:00 to 9:00 in LAE467
 	Capacity of Course: 25
-	Capacity of Room: 30
-CISC464010 from 12:00 to 13:00 in ILN133
+	Capacity of Room: 25
+CISC437011 from 17:00 to 19:00 in LAE467
+	Capacity of Course: 25
+	Capacity of Room: 25
+CISC450010 from 10:00 to 11:00 in LAE215
+	Capacity of Course: 35
+	Capacity of Room: 40
+CISC464010 from 12:00 to 14:00 in YKU478
+	Capacity of Course: 10
+	Capacity of Room: 10
+CISC464011 from 12:00 to 13:00 in VEY498
+	Capacity of Course: 30
+	Capacity of Room: 35
+CISC465010 from 13:00 to 14:00 in LAE111
+	Capacity of Course: 25
+	Capacity of Room: 25
+CISC471010 from 10:00 to 11:00 in LAE111
+	Capacity of Course: 25
+	Capacity of Room: 25
+CISC474010 from 10:00 to 11:00 in OUR395
+	Capacity of Course: 30
+	Capacity of Room: 70
+CISC475010 from 16:00 to 18:00 in LAE476
+	Capacity of Course: 15
+	Capacity of Room: 20
+CISC475011 from 12:00 to 13:00 in YKU169
+	Capacity of Course: 10
+	Capacity of Room: 10
+CISC476010 from 11:00 to 13:00 in NEN357
 	Capacity of Course: 15
 	Capacity of Room: 15
-CISC484010 from 18:00 to 19:00 in ILN133
+CISC481010 from 14:00 to 16:00 in LAE467
+	Capacity of Course: 20
+	Capacity of Room: 25
+CISC483010 from 17:00 to 18:00 in NEN357
+	Capacity of Course: 15
+	Capacity of Room: 15
+CISC483011 from 11:00 to 13:00 in OUR395
+	Capacity of Course: 30
+	Capacity of Room: 70
+CISC484010 from 14:00 to 15:00 in NEN357
 	Capacity of Course: 10
 	Capacity of Room: 15
+CISC484011 from 12:00 to 14:00 in OUR297
+	Capacity of Course: 30
+	Capacity of Room: 35
+CISC498010 from 10:00 to 12:00 in NEN211
+	Capacity of Course: 35
+	Capacity of Room: 40
