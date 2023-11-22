@@ -1,0 +1,304 @@
+===AVAILABLE ROOMS===
+{"number": "EER161", "capacity": 95}
+{"number": "OYS298", "capacity": 50}
+{"number": "EUB148", "capacity": 20}
+{"number": "YMI248", "capacity": 90}
+{"number": "EER178", "capacity": 65}
+{"number": "MOG174", "capacity": 45}
+{"number": "EER225", "capacity": 170}
+{"number": "ILN277", "capacity": 20}
+{"number": "OYS174", "capacity": 105}
+{"number": "MOG493", "capacity": 80}
+{"number": "EER370", "capacity": 35}
+{"number": "ILN284", "capacity": 165}
+{"number": "ILN349", "capacity": 50}
+{"number": "MOG112", "capacity": 180}
+{"number": "ILN486", "capacity": 60}
+{"number": "EUB267", "capacity": 70}
+{"number": "EUB192", "capacity": 160}
+{"number": "ILN119", "capacity": 70}
+{"number": "YMI283", "capacity": 90}
+{"number": "EUB324", "capacity": 80}
+{"number": "OYS156", "capacity": 60}
+{"number": "YMI375", "capacity": 60}
+{"number": "ILN234", "capacity": 195}
+{"number": "OYS377", "capacity": 145}
+{"number": "EUB290", "capacity": 145}
+{"number": "EER418", "capacity": 85}
+{"number": "YMI336", "capacity": 155}
+{"number": "OYS470", "capacity": 30}
+{"number": "EER214", "capacity": 30}
+{"number": "MOG137", "capacity": 135}
+{"number": "EER487", "capacity": 40}
+{"number": "EUB134", "capacity": 120}
+{"number": "EUB116", "capacity": 165}
+{"number": "MOG213", "capacity": 50}
+{"number": "EUB221", "capacity": 125}
+{"number": "ILN134", "capacity": 170}
+{"number": "EUB490", "capacity": 85}
+{"number": "YMI312", "capacity": 145}
+{"number": "OYS185", "capacity": 30}
+{"number": "YMI298", "capacity": 170}
+{"number": "EER388", "capacity": 85}
+{"number": "OYS257", "capacity": 160}
+{"number": "ILN272", "capacity": 115}
+{"number": "MOG209", "capacity": 15}
+{"number": "EUB192", "capacity": 180}
+{"number": "EUB122", "capacity": 145}
+{"number": "MOG467", "capacity": 120}
+{"number": "YMI119", "capacity": 135}
+{"number": "OYS470", "capacity": 75}
+{"number": "YMI253", "capacity": 185}
+{"number": "YMI367", "capacity": 30}
+{"number": "YMI339", "capacity": 145}
+{"number": "YMI146", "capacity": 55}
+{"number": "OYS402", "capacity": 135}
+{"number": "EER413", "capacity": 45}
+{"number": "EER336", "capacity": 110}
+{"number": "YMI369", "capacity": 90}
+{"number": "EUB179", "capacity": 25}
+{"number": "YMI413", "capacity": 10}
+{"number": "EUB215", "capacity": 150}
+{"number": "EER192", "capacity": 90}
+{"number": "MOG177", "capacity": 45}
+{"number": "EUB143", "capacity": 15}
+{"number": "ILN301", "capacity": 10}
+{"number": "OYS319", "capacity": 60}
+{"number": "OYS234", "capacity": 50}
+{"number": "MOG240", "capacity": 125}
+{"number": "MOG115", "capacity": 125}
+{"number": "YMI490", "capacity": 125}
+{"number": "ILN462", "capacity": 180}
+{"number": "YMI223", "capacity": 130}
+{"number": "EER149", "capacity": 175}
+{"number": "ILN330", "capacity": 175}
+{"number": "EER285", "capacity": 55}
+{"number": "OYS486", "capacity": 85}
+{"number": "OYS403", "capacity": 190}
+{"number": "MOG317", "capacity": 155}
+{"number": "EUB180", "capacity": 40}
+{"number": "ILN471", "capacity": 50}
+{"number": "ILN185", "capacity": 95}
+{"number": "MOG134", "capacity": 160}
+{"number": "ILN148", "capacity": 135}
+{"number": "ILN133", "capacity": 15}
+{"number": "MOG487", "capacity": 110}
+{"number": "EER449", "capacity": 30}
+{"number": "YMI427", "capacity": 60}
+{"number": "OYS462", "capacity": 75}
+
+===AVAILABLE COURSES===
+CISC106010 from 18:00 to 19:00 in MOG493, EUB324, EER418, EUB490, EER388, OYS486
+	Capacity: 80
+CISC106011 from 12:00 to 13:00 in EUB134, EUB221, MOG467, MOG240, MOG115, YMI490
+	Capacity: 120
+CISC106012 from 8:00 to 10:00 in MOG493, EUB324, EER418, EUB490, EER388, OYS486
+	Capacity: 80
+CISC106013 from 9:00 to 10:00 in MOG493, EUB324, EER418, EUB490, EER388, OYS486
+	Capacity: 80
+CISC106014 from 10:00 to 12:00 in EER178, ILN486, OYS156, YMI375, OYS319, YMI427
+	Capacity: 60
+CISC181010 from 16:00 to 17:00 in MOG174, EER487, EER413, MOG177, EUB180
+	Capacity: 40
+CISC181011 from 16:00 to 18:00 in MOG174, EER487, EER413, MOG177, EUB180
+	Capacity: 40
+CISC181012 from 12:00 to 14:00 in OYS377, EUB290, YMI312, EUB122, YMI339
+	Capacity: 140
+CISC181013 from 18:00 to 20:00 in OYS377, EUB290, YMI312, EUB122, YMI339
+	Capacity: 140
+CISC181014 from 15:00 to 16:00 in OYS377, EUB290, YMI312, EUB122, YMI339
+	Capacity: 140
+CISC260010 from 11:00 to 12:00 in EER161, YMI248, YMI283, YMI369, EER192, ILN185
+	Capacity: 90
+CISC303010 from 17:00 to 19:00 in OYS298, ILN349, MOG213, YMI146, OYS234, EER285, ILN471
+	Capacity: 50
+CISC303011 from 9:00 to 10:00 in MOG174, EER487, EER413, MOG177, EUB180
+	Capacity: 40
+CISC303012 from 18:00 to 19:00 in MOG174, EER487, EER413, MOG177, EUB180
+	Capacity: 40
+CISC304010 from 11:00 to 12:00 in EER370, OYS470, EER214, OYS185, YMI367, EER449
+	Capacity: 30
+CISC304011 from 11:00 to 12:00 in MOG174, EER487, EER413, MOG177, EUB180
+	Capacity: 40
+CISC355010 from 15:00 to 17:00 in OYS298, ILN349, MOG213, YMI146, OYS234, EER285, ILN471
+	Capacity: 50
+CISC360010 from 16:00 to 18:00 in EUB267, ILN119, OYS470, OYS462
+	Capacity: 70
+CISC360011 from 11:00 to 12:00 in EUB267, ILN119, OYS470, OYS462
+	Capacity: 70
+CISC361010 from 16:00 to 18:00 in EUB267, ILN119, OYS470, OYS462
+	Capacity: 70
+CISC401010 from 16:00 to 17:00 in EER370, EER487, EUB180
+	Capacity: 35
+CISC401011 from 9:00 to 11:00 in MOG209, YMI413, EUB143, ILN301, ILN133
+	Capacity: 10
+CISC410010 from 16:00 to 18:00 in EER370, OYS470, EER214, OYS185, YMI367, EER449
+	Capacity: 30
+CISC410011 from 9:00 to 11:00 in OYS470, EER214, OYS185, YMI367, EUB179, EER449
+	Capacity: 25
+CISC436010 from 18:00 to 19:00 in EER370, OYS470, EER214, OYS185, YMI367, EER449
+	Capacity: 30
+CISC437010 from 11:00 to 12:00 in EUB148, ILN277, EUB179
+	Capacity: 20
+CISC437011 from 12:00 to 13:00 in EUB148, ILN277, EUB179
+	Capacity: 20
+CISC450010 from 13:00 to 15:00 in OYS470, EER214, OYS185, YMI367, EUB179, EER449
+	Capacity: 25
+CISC464010 from 12:00 to 13:00 in EUB148, ILN277, MOG209, EUB143, ILN133
+	Capacity: 15
+CISC484010 from 18:00 to 19:00 in MOG209, YMI413, EUB143, ILN301, ILN133
+	Capacity: 10
+
+===FINAL CLASS SCHEDULE: POSSIBLE===
+CISC106010 from 18:00 to 19:00 in MOG493, EUB324, EER418, EUB490, EER388, OYS486
+	Capacity: 80
+CISC106011 from 12:00 to 13:00 in EUB134, EUB221, MOG467, MOG240, MOG115, YMI490
+	Capacity: 120
+CISC106012 from 8:00 to 10:00 in EUB324, EUB490, OYS486
+	Capacity: 80
+CISC106013 from 9:00 to 10:00 in MOG493, EER418, EER388
+	Capacity: 80
+CISC106014 from 10:00 to 12:00 in EER178, ILN486, OYS156, YMI375, OYS319, YMI427
+	Capacity: 60
+CISC181010 from 16:00 to 17:00 in MOG177
+	Capacity: 40
+CISC181011 from 16:00 to 18:00 in MOG174, EER413
+	Capacity: 40
+CISC181012 from 12:00 to 14:00 in OYS377, EUB290, YMI312, EUB122, YMI339
+	Capacity: 140
+CISC181013 from 18:00 to 20:00 in OYS377, EUB290, YMI312, EUB122, YMI339
+	Capacity: 140
+CISC181014 from 15:00 to 16:00 in OYS377, EUB290, YMI312, EUB122, YMI339
+	Capacity: 140
+CISC260010 from 11:00 to 12:00 in EER161, YMI248, YMI283, YMI369, EER192, ILN185
+	Capacity: 90
+CISC303010 from 17:00 to 19:00 in OYS298, ILN349, MOG213, YMI146, OYS234, EER285, ILN471
+	Capacity: 50
+CISC303011 from 9:00 to 10:00 in MOG174, EER487, EER413, MOG177, EUB180
+	Capacity: 40
+CISC303012 from 18:00 to 19:00 in MOG174, EER487, EER413, MOG177, EUB180
+	Capacity: 40
+CISC304010 from 11:00 to 12:00 in EER370, EER214, OYS185, YMI367, EER449
+	Capacity: 30
+CISC304011 from 11:00 to 12:00 in MOG174, EER487, EER413, MOG177, EUB180
+	Capacity: 40
+CISC355010 from 15:00 to 17:00 in OYS298, ILN349, MOG213, YMI146, OYS234, EER285, ILN471
+	Capacity: 50
+CISC360010 from 16:00 to 18:00 in ILN119, OYS462
+	Capacity: 70
+CISC360011 from 11:00 to 12:00 in EUB267, ILN119, OYS470, OYS462
+	Capacity: 70
+CISC361010 from 16:00 to 18:00 in EUB267
+	Capacity: 70
+CISC401010 from 16:00 to 17:00 in EER487, EUB180
+	Capacity: 35
+CISC401011 from 9:00 to 11:00 in MOG209, YMI413, EUB143, ILN301, ILN133
+	Capacity: 10
+CISC410010 from 16:00 to 18:00 in EER370, OYS470, EER214, OYS185, YMI367, EER449
+	Capacity: 30
+CISC410011 from 9:00 to 11:00 in OYS470, EER214, OYS185, YMI367, EUB179, EER449
+	Capacity: 25
+CISC436010 from 18:00 to 19:00 in EER370, OYS470, EER214, OYS185, YMI367, EER449
+	Capacity: 30
+CISC437010 from 11:00 to 12:00 in EUB148, ILN277, EUB179
+	Capacity: 20
+CISC437011 from 12:00 to 13:00 in ILN277, EUB179
+	Capacity: 20
+CISC450010 from 13:00 to 15:00 in OYS470, EER214, OYS185, YMI367, EUB179, EER449
+	Capacity: 25
+CISC464010 from 12:00 to 13:00 in EUB148, MOG209, EUB143, ILN133
+	Capacity: 15
+CISC484010 from 18:00 to 19:00 in MOG209, YMI413, EUB143, ILN301, ILN133
+	Capacity: 10
+
+===FINAL CLASS SCHEDULE: CHOSEN===
+CISC106010 from 18:00 to 19:00 in OYS486
+	Capacity of Course: 80
+	Capacity of Room: 85
+CISC106011 from 12:00 to 13:00 in YMI490
+	Capacity of Course: 120
+	Capacity of Room: 125
+CISC106012 from 8:00 to 10:00 in OYS486
+	Capacity of Course: 80
+	Capacity of Room: 85
+CISC106013 from 9:00 to 10:00 in EER388
+	Capacity of Course: 80
+	Capacity of Room: 85
+CISC106014 from 10:00 to 12:00 in YMI427
+	Capacity of Course: 60
+	Capacity of Room: 60
+CISC181010 from 16:00 to 17:00 in MOG177
+	Capacity of Course: 40
+	Capacity of Room: 45
+CISC181011 from 16:00 to 18:00 in EER413
+	Capacity of Course: 40
+	Capacity of Room: 45
+CISC181012 from 12:00 to 14:00 in YMI339
+	Capacity of Course: 140
+	Capacity of Room: 145
+CISC181013 from 18:00 to 20:00 in YMI339
+	Capacity of Course: 140
+	Capacity of Room: 145
+CISC181014 from 15:00 to 16:00 in YMI339
+	Capacity of Course: 140
+	Capacity of Room: 145
+CISC260010 from 11:00 to 12:00 in ILN185
+	Capacity of Course: 90
+	Capacity of Room: 95
+CISC303010 from 17:00 to 19:00 in ILN471
+	Capacity of Course: 50
+	Capacity of Room: 50
+CISC303011 from 9:00 to 10:00 in EUB180
+	Capacity of Course: 40
+	Capacity of Room: 40
+CISC303012 from 18:00 to 19:00 in EUB180
+	Capacity of Course: 40
+	Capacity of Room: 40
+CISC304010 from 11:00 to 12:00 in EER449
+	Capacity of Course: 30
+	Capacity of Room: 30
+CISC304011 from 11:00 to 12:00 in EUB180
+	Capacity of Course: 40
+	Capacity of Room: 40
+CISC355010 from 15:00 to 17:00 in ILN471
+	Capacity of Course: 50
+	Capacity of Room: 50
+CISC360010 from 16:00 to 18:00 in OYS462
+	Capacity of Course: 70
+	Capacity of Room: 75
+CISC360011 from 11:00 to 12:00 in OYS462
+	Capacity of Course: 70
+	Capacity of Room: 75
+CISC361010 from 16:00 to 18:00 in EUB267
+	Capacity of Course: 70
+	Capacity of Room: 70
+CISC401010 from 16:00 to 17:00 in EUB180
+	Capacity of Course: 35
+	Capacity of Room: 40
+CISC401011 from 9:00 to 11:00 in ILN133
+	Capacity of Course: 10
+	Capacity of Room: 15
+CISC410010 from 16:00 to 18:00 in EER449
+	Capacity of Course: 30
+	Capacity of Room: 30
+CISC410011 from 9:00 to 11:00 in EER449
+	Capacity of Course: 25
+	Capacity of Room: 30
+CISC436010 from 18:00 to 19:00 in EER449
+	Capacity of Course: 30
+	Capacity of Room: 30
+CISC437010 from 11:00 to 12:00 in EUB179
+	Capacity of Course: 20
+	Capacity of Room: 25
+CISC437011 from 12:00 to 13:00 in EUB179
+	Capacity of Course: 20
+	Capacity of Room: 25
+CISC450010 from 13:00 to 15:00 in EER449
+	Capacity of Course: 25
+	Capacity of Room: 30
+CISC464010 from 12:00 to 13:00 in ILN133
+	Capacity of Course: 15
+	Capacity of Room: 15
+CISC484010 from 18:00 to 19:00 in ILN133
+	Capacity of Course: 10
+	Capacity of Room: 15
