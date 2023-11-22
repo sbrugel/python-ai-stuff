@@ -100,10 +100,10 @@ def draw_board(msg):
         for j in range(BOARD_SIZE):
             if (i, j) in path:
                 pygame.draw.rect(DISPLAY, CURRENT_COLOR, (i*TILE_SIZE, j*TILE_SIZE, TILE_SIZE-1, TILE_SIZE-1))
-            elif maze[i][j].open and run_algorithm:
-                pygame.draw.rect(DISPLAY, OPEN_COLOR, (i*TILE_SIZE, j*TILE_SIZE, TILE_SIZE-1, TILE_SIZE-1))
             elif maze[i][j].closed and run_algorithm:
                 pygame.draw.rect(DISPLAY, CLOSED_COLOR, (i*TILE_SIZE, j*TILE_SIZE, TILE_SIZE-1, TILE_SIZE-1))
+            elif maze[i][j].open and run_algorithm:
+                pygame.draw.rect(DISPLAY, OPEN_COLOR, (i*TILE_SIZE, j*TILE_SIZE, TILE_SIZE-1, TILE_SIZE-1))
             else:
                 pygame.draw.rect(DISPLAY, OBSTACLE_COLOR if maze[i][j].obstacle else UNEXPLORED_COLOR, (i*TILE_SIZE, j*TILE_SIZE, TILE_SIZE-1, TILE_SIZE-1))
         TEXT_SURF, TEXT_RECT = make_text(msg, WHITE, BLUE, 0, WINDOW_SIZE)
@@ -141,6 +141,11 @@ def a_star(maze):
     open_list = []
     heapq.heappush(open_list, (0, (0, 0))) # push (0, 0) starting coords to open list with priority/cost 0
     maze[0][0].add_to_open()
+
+    draw_board(current_msg)
+    check_for_quit()
+    pygame.display.update()
+    FPSCLOCK.tick(FPS)
 
     # The cost to reach each node (g value)
     cost_so_far = {(0, 0): 0}
@@ -191,13 +196,13 @@ def a_star(maze):
             if next_row >= 0 and next_col >= 0 and next_row < BOARD_SIZE and next_col < BOARD_SIZE and not maze[next_row][next_col].obstacle:
                 # Check only the valid tiles
                 new_cost = cost_so_far[current_coords] + 1 # The cost is just 1 plus whatever the current node cost is
-                if (next_row, next_col) not in cost_so_far or new_cost < cost_so_far[(next_row, next_col)]:
-                    # Add to open if not visited, or has a lower cost
+                if not (next_row, next_col) in cost_so_far or new_cost < cost_so_far[(next_row, next_col)]:
+                    # Add to open if not visited; update cost if on closed, but has a lower cost
                     cost_so_far[(next_row, next_col)] = new_cost
+                    parents[(next_row, next_col)] = current_coords
                     priority = new_cost + heuristic(next_row, next_col)
                     heapq.heappush(open_list, (priority, (next_row, next_col)))
-                    maze[current_coords[0]][current_coords[1]].add_to_open()
-                    parents[(next_row, next_col)] = current_coords
+                    maze[next_row][next_col].add_to_open()
 
                     # Update the path
                     path = []
