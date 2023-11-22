@@ -16,7 +16,7 @@ $$h = \max\left(|x_2 - x_1|, |y_2 - y_1|\right)$$
 **Manhattan Distance Heuristic** if diagonal movement is not allowed.
 $$h = |x_2 - x_1| + |y_2 - y_1|$$
 
-![img](https://i.imgur.com/1iZgNyT.gif)
+![img](https://i.imgur.com/jDGJhfA.gif)
 
 ## Constraint Satisfaction Classroom Allocator
 This is a demonstration of the AC-3 algorithm, which is used for constraint satisfaction, a process in artificial intelligence. Given random courses and rooms available, **the aim is to allocate every course section to a room, with no two classes using the same room at the same time.**.
